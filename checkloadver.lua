@@ -3,10 +3,6 @@ if loaderver < 3.0 then
 	gg.alert("※此載入器已過期，請更新載入器至3.0版本")
 	print('※此載入器已過期，請更新載入器至3.0版本')
 end
-if maintainver > 0 then 
-	gg.alert("※載入器維護中，請稍後在執行腳本")
-	print('※載入器維護中，請稍後在執行腳本')
-end
 
 ::script::
 menu = gg.choice({'※神魔之塔 腳本','※和平精英 腳本','※PUBG M 腳本'},nil,'請選擇要使用的腳本')
