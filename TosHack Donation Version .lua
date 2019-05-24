@@ -66,6 +66,7 @@ function donationhack ()
 		end
 	gg.setRanges(bit32.bxor(gg.REGION_C_ALLOC,gg.REGION_ANONYMOUS))
 	if funcTable[1] then
+		reset=0
 		ST()
 		end
 	if funcTable[2] then
