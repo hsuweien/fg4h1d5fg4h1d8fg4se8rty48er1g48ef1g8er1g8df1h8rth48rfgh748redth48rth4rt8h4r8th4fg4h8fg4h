@@ -38,7 +38,7 @@ else
 gg.alert("密碼錯誤") os.exit()
 end
 end
-JTs = gg.alert("愛心捐款版本登入系統","點我登入")
+JTs = gg.alert("愛心捐款者專屬登入系統","點我登入")
 if JTs == 1 then writefile() else
 os.exit() 
 end
