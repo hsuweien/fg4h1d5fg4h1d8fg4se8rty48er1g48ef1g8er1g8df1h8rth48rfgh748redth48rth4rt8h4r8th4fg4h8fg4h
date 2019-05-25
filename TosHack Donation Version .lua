@@ -134,6 +134,7 @@ function donationhack ()
 	if funcTable[2] then
 		Secondlevel()
 		end
+	main ()
 end
 
-main ()
+donationhack ()
