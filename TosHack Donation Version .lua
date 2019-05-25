@@ -136,4 +136,4 @@ function donationhack ()
 		end
 end
 
-donationhack ()
+main ()
