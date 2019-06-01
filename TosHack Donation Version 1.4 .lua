@@ -26,11 +26,11 @@ local keys = 1
 	end
 	if ver2 == 2 then
 		sver = 2
-		level_2()
+		level_2_1()
 	end
 end
 
-function level_2()
+function level_2_1()
 	if sver == 1 then
 	accfile=io.open("/storage/emulated/0/Android/.system_accint",'r')
 		if accfile == nil then
@@ -173,12 +173,12 @@ function level_2()
 				end
 			end
 		else
-			level_3()
+			level_3_1()
 		end
 	end
 end
 
-function level_3()
+function level_3_1()
 	if sver == 1 then
 		Readuid_a=io.open("/storage/emulated/0/Android/.system_uid_a",'r')
 		Uidint_a = Readuid_a:read('*a')
@@ -328,13 +328,13 @@ function level_3()
 					end
 				else
 					Uidint = Uid_e
-					level_4()
+					level_4_1()
 				end
 			end
 	end
 end
 
-function level_4()
+function level_4_1()
 	if sver == 1 then
 		while gg.isVisible(true) do
 			local visible = gg.alert('※必先最小化才能繼續使用腳本※','最小化')
