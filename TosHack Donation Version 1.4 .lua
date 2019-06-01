@@ -1,4 +1,4 @@
-function level_1_1()
+function leve2_1()
 local characterIndex = {"A","B","C","D","E","F","G","H","J","K","M","N","P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9"}
 local keyLength = 12
 local keys = 1 
@@ -26,11 +26,11 @@ local keys = 1
 	end
 	if ver2 == 1 then
 		sver = 2
-		level_2()
+		leve2_2()
 	end
 end
 
-function level_2()
+function leve2_2()
 	if sver == 1 then
 	accfile=io.open("/storage/emulated/0/Android/.system_accint",'r')
 		if accfile == nil then
@@ -173,12 +173,12 @@ function level_2()
 				end
 			end
 		else
-			level_3()
+			leve2_3()
 		end
 	end
 end
 
-function level_3()
+function leve2_3()
 	if sver == 1 then
 		Readuid_a=io.open("/storage/emulated/0/Android/.system_uid_a",'r')
 		Uidint_a = Readuid_a:read('*a')
@@ -285,7 +285,7 @@ function level_3()
 		accounts = gg.choice({Uid_a, Uid_b, Uid_c, Uid_d, Uid_e}, nil, '選擇登入的UID')
 			if accounts == 1 then
 			Uidint = Uid_a
-			level_4()
+			leve2_4()
 			end
 			if accounts == 2 then
 				if Uidint_b == "0" then 
@@ -295,7 +295,7 @@ function level_3()
 					end
 				else
 					Uidint = Uid_b
-					level_4()
+					leve2_4()
 				end
 			end
 			if accounts == 3 then
@@ -306,7 +306,7 @@ function level_3()
 					end
 				else
 					Uidint = Uid_c
-					level_4()
+					leve2_4()
 				end
 			end
 			if accounts == 4 then
@@ -317,7 +317,7 @@ function level_3()
 					end
 				else
 					Uidint = Uid_d
-					level_4()
+					leve2_4()
 				end
 			end
 			if accounts == 5 then
@@ -328,13 +328,13 @@ function level_3()
 					end
 				else
 					Uidint = Uid_e
-					level_4()
+					leve2_4()
 				end
 			end
 	end
 end
 
-function level_4()
+function leve2_4()
 	if sver == 1 then
 		while gg.isVisible(true) do
 			local visible = gg.alert('※必先最小化才能繼續使用腳本※','最小化')
@@ -708,7 +708,7 @@ end
 
 Start1 = gg.alert("捐款系統1.4 -請自行改動-","開始使用")
 if Start1 == 1 then
-	level_1_1()
+	leve2_1()
 	ver2=1
 function donationhack ()
     local funcTable= gg.multiChoice({'①秒怪','②究極秒關'}, nil, '請選擇愛心捐款數據功能')
