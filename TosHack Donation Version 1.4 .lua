@@ -21,7 +21,7 @@ local keys = 1
 		KEY = key
 	end
 	local ver1 = gg.choice({'捐款專用腳本'}, nil, '選擇登入腳本')
-	if not ver then
+	if not ver1 then
 		os.exit()
 	end
 	if ver1 == 1 then
