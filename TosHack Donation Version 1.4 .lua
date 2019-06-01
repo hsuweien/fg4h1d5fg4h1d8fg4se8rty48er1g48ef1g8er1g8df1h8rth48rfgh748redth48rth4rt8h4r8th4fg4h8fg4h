@@ -1,4 +1,4 @@
-function level_1_1()
+function leve2_1()
 local characterIndex = {"A","B","C","D","E","F","G","H","J","K","M","N","P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9"}
 local keyLength = 12
 local keys = 1 
@@ -710,7 +710,7 @@ end
 
 Start2 = gg.alert("捐款系統1.4 -請自行改動-","開始使用")
 if Start2 == 1 then
-	level_1_1()
+	leve2_1()
 else
 	os.exit() 
 end
