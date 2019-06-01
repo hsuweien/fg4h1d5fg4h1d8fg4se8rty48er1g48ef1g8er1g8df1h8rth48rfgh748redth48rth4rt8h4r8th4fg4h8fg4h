@@ -1,4 +1,4 @@
-function level_1()
+function level_5()
 local characterIndex = {"A","B","C","D","E","F","G","H","J","K","M","N","P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9"}
 local keyLength = 12
 local keys = 1 
@@ -31,7 +31,7 @@ local keys = 1
 end
 
 if Start == 1 then
-	level_1()
+	level_5()
 	ver2=2
 function donationhack ()
     local funcTable= gg.multiChoice({'①秒怪','②究極秒關'}, nil, '請選擇愛心捐款數據功能')
