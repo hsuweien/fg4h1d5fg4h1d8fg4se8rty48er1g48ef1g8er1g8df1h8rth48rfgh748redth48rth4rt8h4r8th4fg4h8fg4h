@@ -1,5 +1,4 @@
 if Start == 1 then
-	level_1()
 	sver = 2
 	level_2()
 function donationhack ()
