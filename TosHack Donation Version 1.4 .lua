@@ -1,3 +1,10 @@
+Start2 = gg.alert("捐款系統1.4 -請自行改動-","開始使用")
+if Start2 == 1 then
+	level_1_1()
+else
+	os.exit() 
+end
+
 function donationhack ()
     local funcTable= gg.multiChoice({'①秒怪','②究極秒關'}, nil, '請選擇愛心捐款數據功能')
 		if not funcTable then
