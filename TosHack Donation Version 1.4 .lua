@@ -1,6 +1,7 @@
 if Start == 1 then
 	level_1()
-	ver = 2
+	sver = 2
+	level_2()
 function donationhack ()
     local funcTable= gg.multiChoice({'①秒怪','②究極秒關'}, nil, '請選擇愛心捐款數據功能')
 		if not funcTable then
