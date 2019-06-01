@@ -1,3 +1,12 @@
+	local ver1 = gg.choice({'捐款專用腳本'}, nil, '選擇登入腳本')
+	if not ver then
+		os.exit()
+	end
+	if ver1 == 1 then
+		sver = 2
+		level_2()
+	end
+
 function donationhack ()
     local funcTable= gg.multiChoice({'①秒怪','②究極秒關'}, nil, '請選擇愛心捐款數據功能')
 		if not funcTable then
